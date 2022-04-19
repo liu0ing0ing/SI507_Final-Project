@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8"/>
+    <title>User Preference</title>
+</head>
+
+<body>
+  <form action="/handle_form" method="POST">
+    <p>
+        What's your address? <input name="address" type="text"/><br/>
+    </p>
+    <p>
+        Which types of food would you like?<br/>
+        <input type="checkbox" name="like_types" value="American"> American <br/>
+        <input type="checkbox" name="like_types" value="British"> British <br/>
+        <input type="checkbox" name="like_types" value="Chinese"> Chinese <br/>
+        <input type="checkbox" name="like_types" value="Cuban"> Cuban <br/>
+        <input type="checkbox" name="like_types" value="Eastern European"> Eastern European <br/>
+        <input type="checkbox" name="like_types" value="French"> French <br/>
+        <input type="checkbox" name="like_types" value="German"> German <br/>
+        <input type="checkbox" name="like_types" value="Hawaiian"> Hawaiian <br/>
+        <input type="checkbox" name="like_types" value="Indian"> Indian <br/>
+        <input type="checkbox" name="like_types" value="Indonesian"> Indonesian <br/>
+        <input type="checkbox" name="like_types" value="Italian"> Italian <br/>
+        <input type="checkbox" name="like_types" value="Japanese"> Japanese <br/>
+        <input type="checkbox" name="like_types" value="Mediterranean"> Mediterranean <br/>
+        <input type="checkbox" name="like_types" value="Mexican"> Mexican <br/>
+        <input type="checkbox" name="like_types" value="Middle Eastern"> Middle Eastern <br/>
+        <input type="checkbox" name="like_types" value="New Mexican Cuisine"> New Mexican Cuisine <br/>
+        <input type="checkbox" name="like_types" value="Portuguese"> Portuguese <br/>
+        <input type="checkbox" name="like_types" value="Singaporean"> Singaporean <br/>
+        <input type="checkbox" name="like_types" value="Spanish"> Spanish <br/>
+        <input type="checkbox" name="like_types" value="Turkish"> Turkish <br/>
+    </p>
+
+    <p>
+        Please choose a price level<br>
+        <input type="radio" name="price" value="1">$<br/>
+        <input type="radio" name="price" value="2">$$<br/>
+        <input type="radio" name="price" value="3">$$$<br/>
+        <input type="radio" name="price" value="4">$$$$<br/>
+    </p>
+
+    <input type="submit" value="Submit Form"/>
+  </form>
+</body>
+
+</html>
